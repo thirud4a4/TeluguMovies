@@ -43,7 +43,7 @@ authors = listOf("Durgam")
     }
 
     android {
-        namespace = "com.durgam"
+        namespace = "com.telugumovies"
 
         defaultConfig {
             minSdk = 21
