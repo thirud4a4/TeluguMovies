@@ -38,7 +38,7 @@ subprojects {
 
     cloudstream {
         // when running through github workflow, GITHUB_REPOSITORY should contain current repository name
-        setRepo(System.getenv("GITHUB_REPOSITORY") ?: "https://github.com/thirud4a4/TeluguMovies")
+        setRepo(System.getenv("GITHUB_REPOSITORY") ?: "https://raw.githubusercontent.com/thirud4a4/TeluguMovies/builds/plugins.json")
 authors = listOf("Durgam")
     }
 
